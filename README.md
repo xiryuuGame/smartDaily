@@ -27,8 +27,8 @@ SmartDaily is a simple Electron-based Todo application with integrated AI capabi
 
 1.  **Clone the repository:**
     ```bash
-    git clone <repository_url>
-    cd smartdaily
+    git clone https://github.com/xiryuuGame/smartDaily
+    cd smartDaily
     ```
 2.  **Install dependencies:**
     ```bash
@@ -43,12 +43,11 @@ SmartDaily is a simple Electron-based Todo application with integrated AI capabi
 1.  **Start the application:**
     *   **Development Mode:**
         ```bash
-        npm run dev
+        npm run electron:dev
         ```
     *   **Production Build:**
         ```bash
         npm run build
-        npm start
         ```
 2.  **Managing Todos:**
     *   Use the input field to add new todos.
